@@ -1,0 +1,13 @@
+kind: web
+tech: vite-react
+deploy:
+  port: 80
+  healthPath: /
+  dnsPrefix: app
+  resources:
+    requests:
+      cpu: "50m"
+      memory: "64Mi"
+    limits:
+      cpu: "200m"
+      memory: "128Mi"
