@@ -1,7 +1,7 @@
 kind: web
 tech: vite-react
 deploy:
-  port: 80
+  port: 8080
   healthPath: /
   dnsPrefix: app
   resources:
